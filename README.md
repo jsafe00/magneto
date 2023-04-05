@@ -1,5 +1,32 @@
 # Magento 2
 
-Following the wonderful and very detailed tutorial of Sonal Motghare-Balpande 
+## Module Registation
 
-https://www.thecoachsmb.com/6-steps-to-install-magento2-on-xampp-windows-using-composer/
+### Module location
+
+```
+ magneto_marvel\app\code\Magneto\SampleModule
+ ```
+
+### Module registration
+
+ ```
+ magneto_marvel\app\code\Magneto\SampleModule\registration.php
+ ```
+
+### Module versioning and dependency
+
+```
+php bin/magento module:enable Magneto_SampleModule
+```
+```
+php bin/magento setup:upgrade
+```
+
+### Check DB
+
+```
+SELECT * 
+FROM setup_module
+WHERE module = 'Magneto_SampleModule';
+```
