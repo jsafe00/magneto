@@ -19,6 +19,7 @@
 ```
 php bin/magento module:enable Magneto_SampleModule
 ```
+
 ```
 php bin/magento setup:upgrade
 ```
@@ -29,4 +30,14 @@ php bin/magento setup:upgrade
 SELECT * 
 FROM setup_module
 WHERE module = 'Magneto_SampleModule';
+```
+
+## DB Scripts
+
+ ```
+magneto_marvel\app\code\Magneto\SampleModule\Setup
+ ```
+
+```
+php bin/magento setup:upgrade
 ```
