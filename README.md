@@ -61,3 +61,23 @@ app\code\Magneto\SampleModule\Model\ResourceModel\Item.php
 ```
 app\code\Magneto\SampleModule\Model\ResourceModel\Item\Collection.php
 ```
+
+## Controller Layer
+
+### Routing
+
+```
+app\code\Magneto\SampleModule\etc\frontend\routes.xml
+```
+
+### Controllers
+
+```
+app\code\Magneto\SampleModule\Controller\Index\Index.php
+```
+
+### Check
+
+```
+localhost/magneto
+```
