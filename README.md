@@ -41,3 +41,23 @@ magneto_marvel\app\code\Magneto\SampleModule\Setup
 ```
 php bin/magento setup:upgrade
 ```
+
+## Model Layer
+
+### Models
+
+```
+app\code\Magneto\SampleModule\Model\Item.php
+```
+
+### Resource models
+
+```
+app\code\Magneto\SampleModule\Model\ResourceModel\Item.php
+```
+
+### Collections
+
+```
+app\code\Magneto\SampleModule\Model\ResourceModel\Item\Collection.php
+```
