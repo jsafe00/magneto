@@ -1,0 +1,9 @@
+<?php
+/** @var \Magneto\SampleModule\Block\Hello $block */
+?>
+
+<?php foreach ($block->getItems() as $item): ?>
+<p>
+<?php echo $item->getName(); ?> 
+</p>
+<?php endforeach; ?>

@@ -2,9 +2,9 @@
 
 namespace Magneto\SampleModule\Model\ResourceModel\Item;
 
-use Magento\Framework\Mmodel\ResourceModel\Db\Collection\AbstractCollection;
+use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 use Magneto\SampleModule\Model\Item;
-use Magneto\SampleModule\Mode\ResourceModel\Item as ItemResource;
+use Magneto\SampleModule\Model\ResourceModel\Item as ItemResource;
 
 class Collection extends AbstractCollection
 {

@@ -81,3 +81,36 @@ app\code\Magneto\SampleModule\Controller\Index\Index.php
 ```
 localhost/magneto
 ```
+
+## View Layer
+
+### Blocks
+
+```
+app\code\Magneto\SampleModule\Block\Hello.php
+```
+
+### Templates
+
+```
+app\code\Magneto\SampleModule\view\frontend\templates\hello.phtml
+```
+
+### Layouts
+
+```
+app\code\Magneto\SampleModule\view\frontend\layout\magneto_index_index.xml
+```
+
+```
+Magento 2 will generate a factory for any class if you will add Factory suffix for any class. 
+```
+
+```
+Layout name:
+1. frontend value from routes.xml - magneto
+2. controller name - index 
+3. action name - index
+
+magneto_index_index.xml
+```
