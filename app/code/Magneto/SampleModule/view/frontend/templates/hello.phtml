@@ -2,6 +2,8 @@
 /** @var \Magneto\SampleModule\Block\Hello $block */
 ?>
 
+<?php echo $block->getLabel(); ?>
+
 <?php foreach ($block->getItems() as $item): ?>
 <p>
 <?php echo $item->getName(); ?> 

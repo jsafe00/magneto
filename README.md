@@ -269,3 +269,13 @@ php bin/magento setup:static-content:deploy -f
 ```
 php bin/magento cache:flush
 ```
+
+## 11. Layout Configuration
+
+```
+app\code\Magneto\SampleModule\view\frontend\layout\magneto_index_index.xml
+```
+
+```
+app\code\Magneto\SampleModule\view\frontend\templates\hello.phtml
+```
