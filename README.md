@@ -1,6 +1,6 @@
 # Magento 2
 
-## Module Registation
+## 1. Module Registation
 
 ### Module location
 
@@ -24,7 +24,7 @@ php bin/magento module:enable Magneto_SampleModule
 php bin/magento setup:upgrade
 ```
 
-### Check DB
+### 2. Check DB
 
 ```
 SELECT * 
@@ -42,7 +42,7 @@ magneto_marvel\app\code\Magneto\SampleModule\Setup
 php bin/magento setup:upgrade
 ```
 
-## Model Layer
+## 3. Model Layer
 
 ### Models
 
@@ -62,7 +62,7 @@ app\code\Magneto\SampleModule\Model\ResourceModel\Item.php
 app\code\Magneto\SampleModule\Model\ResourceModel\Item\Collection.php
 ```
 
-## Controller Layer
+## 4. Controller Layer
 
 ### Routing
 
@@ -82,7 +82,7 @@ app\code\Magneto\SampleModule\Controller\Index\Index.php
 localhost/magneto
 ```
 
-## View Layer
+## 5. View Layer
 
 ### Blocks
 
