@@ -1,6 +1,6 @@
 # Magento 2
 
-## Module Registation
+## 1. Module Registation
 
 ### Module location
 
@@ -32,7 +32,7 @@ FROM setup_module
 WHERE module = 'Magneto_SampleModule';
 ```
 
-## DB Scripts
+## 2. DB Scripts
 
  ```
 magneto_marvel\app\code\Magneto\SampleModule\Setup

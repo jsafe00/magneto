@@ -1,6 +1,6 @@
 <?php
 
-namespace Mastering\SampleModule\Setup;
+namespace Magneto\SampleModule\Setup;
 
 use Magento\Framework\Setup\InstallSchemaInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
