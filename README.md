@@ -233,3 +233,39 @@ app\code\Magneto\SampleModule\view\adminhtml\layout\magneto_item_new.xml
 ```
 app\code\Magneto\SampleModule\view\adminhtml\ui_component\magneto_item_form.xml
 ```
+
+## Extending UI Components
+
+### Extending xml configuration
+
+```
+app\code\Magneto\SampleModule\view\adminhtml\ui_component\sales_order_grid.xml
+```
+
+### Adding new columns to grids
+
+```
+app\code\Magneto\SampleModule\Setup\UpgradeSchema.php
+```
+
+```
+app\code\Magneto\SampleModule\etc\di.xml
+```
+
+```
+app\code\Magneto\SampleModule\etc\module.xml
+```
+
+### Execute
+
+```
+php bin/magento setup:upgrade
+```
+
+```
+php bin/magento setup:static-content:deploy -f
+```
+
+```
+php bin/magento cache:flush
+```
