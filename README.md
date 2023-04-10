@@ -205,3 +205,31 @@ app\code\Magneto\SampleModule\view\adminhtml\layout\magneto_index_index.xml
 ```
 app\code\Magneto\SampleModule\view\adminhtml\ui_component\magneto_items_grid.xml
 ```
+
+## UI Rendering Forms
+
+### New and Save Controllers
+
+```
+app\code\Magneto\SampleModule\Controller\Adminhtml\Item\NewAction.php
+```
+
+```
+app\code\Magneto\SampleModule\Controller\Adminhtml\Item\Save.php
+```
+
+### UI data provider for a form
+
+```
+app\code\Magneto\SampleModule\Ui\DataProvider.php
+```
+
+### Form UI Component configuration
+
+```
+app\code\Magneto\SampleModule\view\adminhtml\layout\magneto_item_new.xml
+```
+
+```
+app\code\Magneto\SampleModule\view\adminhtml\ui_component\magneto_item_form.xml
+```
