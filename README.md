@@ -179,3 +179,29 @@ app\code\Magneto\SampleModule\etc\webapi.xml
 ```
 http://localhost/rest/V1/magneto
 ```
+
+## UI Rendering Grid
+
+### Grid Collection
+
+```
+app\code\Magneto\SampleModule\Controller\Index\Index.php
+```
+
+```
+app\code\Magneto\SampleModule\etc\di.xml
+```
+
+```
+app\code\Magneto\SampleModule\Model\ResourceModel\Item\Grid\Collection.php
+```
+
+### Listing UI Component configuration
+
+```
+app\code\Magneto\SampleModule\view\adminhtml\layout\magneto_index_index.xml
+```
+
+```
+app\code\Magneto\SampleModule\view\adminhtml\ui_component\magneto_items_grid.xml
+```
