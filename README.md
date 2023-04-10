@@ -1,6 +1,6 @@
 # Magento 2
 
-## Module Registation
+## 1. Module Registation
 
 ### Module location
 
