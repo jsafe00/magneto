@@ -142,3 +142,40 @@ app\code\Magneto\SampleModule\etc\adminhtml\menu.xml
 ```
 localhost/admin/magneto
 ```
+
+## Web API Implementation
+
+### Data Interfaces
+
+```
+app\code\Magneto\SampleModule\Api\Data\ItemInterface.php
+```
+
+### Repositories
+
+```
+app\code\Magneto\SampleModule\Api\ItemRepositoryInterface.php
+```
+
+
+### Dependency Injection preferencies configuration
+
+```
+app\code\Magneto\SampleModule\Model\ItemRepository.php
+```
+
+```
+app\code\Magneto\SampleModule\etc\di.xml
+```
+
+### Web API configuration
+
+```
+app\code\Magneto\SampleModule\etc\webapi.xml
+```
+
+### check
+
+```
+http://localhost/rest/V1/magneto
+```
