@@ -114,3 +114,31 @@ Layout name:
 
 magneto_index_index.xml
 ```
+
+## Backend Controller and Menu
+
+### Backend Controller
+
+```
+app\code\Magneto\SampleModule\Controller\Adminhtml\Index\Index.php
+```
+
+```
+app\code\Magneto\SampleModule\etc\adminhtml\routes.xml
+```
+
+## Backend Menu
+
+```
+app\code\Magneto\SampleModule\etc\acl.xml
+```
+
+```
+app\code\Magneto\SampleModule\etc\adminhtml\menu.xml
+```
+
+## check
+
+```
+localhost/admin/magneto
+```
