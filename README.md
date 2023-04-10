@@ -1,6 +1,6 @@
 # Magento 2
 
-## Module Registation
+## 1. Module Registation
 
 ### Module location
 
@@ -32,7 +32,7 @@ FROM setup_module
 WHERE module = 'Magneto_SampleModule';
 ```
 
-## DB Scripts
+## 2. DB Scripts
 
  ```
 magneto_marvel\app\code\Magneto\SampleModule\Setup
@@ -42,7 +42,7 @@ magneto_marvel\app\code\Magneto\SampleModule\Setup
 php bin/magento setup:upgrade
 ```
 
-## Model Layer
+## 3. Model Layer
 
 ### Models
 
@@ -62,7 +62,7 @@ app\code\Magneto\SampleModule\Model\ResourceModel\Item.php
 app\code\Magneto\SampleModule\Model\ResourceModel\Item\Collection.php
 ```
 
-## Controller Layer
+## 4. Controller Layer
 
 ### Routing
 
@@ -82,7 +82,7 @@ app\code\Magneto\SampleModule\Controller\Index\Index.php
 localhost/magneto
 ```
 
-## View Layer
+## 5. View Layer
 
 ### Blocks
 
@@ -115,7 +115,7 @@ Layout name:
 magneto_index_index.xml
 ```
 
-## Backend Controller and Menu
+## 6. Backend Controller and Menu
 
 ### Backend Controller
 
