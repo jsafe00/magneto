@@ -316,3 +316,30 @@ php bin/magento
 ```
 php bin/magento magneto:item:add "Item 5"
 ```
+
+## 13. Scheduling CRON jobs
+
+### Crontab configuration
+
+```
+app\code\Magneto\SampleModule\Cron\AddItem.php
+```
+
+### Cron CLI command
+
+```
+app\code\Magneto\SampleModule\etc\crontab.xml
+```
+
+### Execute 
+
+```
+php bin/magento cron:run
+```
+
+### Check DB
+
+```
+SELECT * FROM cron_schedule WHERE job_code LIKE '%magneto%';
+```
+
