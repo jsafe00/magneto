@@ -16,4 +16,11 @@
             </argument>
         </arguments>
     </virtualType>
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+           <argument name="commands" xsi:type="array">
+                <item name="magnetoAddItem" xsi:type="object">Magneto\SampleModule\Console\Command\AddItem</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

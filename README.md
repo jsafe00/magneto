@@ -279,3 +279,40 @@ app\code\Magneto\SampleModule\view\frontend\layout\magneto_index_index.xml
 ```
 app\code\Magneto\SampleModule\view\frontend\templates\hello.phtml
 ```
+
+## 12. Console Commands
+
+### Magento 2 CLI
+
+```
+app\code\Magneto\SampleModule\Console\Command\AddItem.php
+```
+
+### Custom console commands implementation
+
+```
+app\code\Magneto\SampleModule\etc\di.xml
+```
+
+```
+php bin/magento cache:flush
+```
+
+### Check commands
+
+```
+php bin/magento
+```
+
+### You should see your created console command
+
+```
+ magneto
+  magneto:item:add
+```
+
+### Call your created command
+
+```
+php bin/magento magneto:item:add "Item 5"
+```
