@@ -343,3 +343,40 @@ php bin/magento cron:run
 SELECT * FROM cron_schedule WHERE job_code LIKE '%magneto%';
 ```
 
+## 14. System Configuration
+
+### Create system.xml file
+
+```
+app\Magneto\SampleModule\etc\adminhtml\system.xml
+```
+
+### Create config.xml file using the values from system.xml
+
+```
+app\Magneto\SampleModule\etc\config.xml
+```
+
+### Create config file Model 
+
+```
+app\Magneto\SampleModule\Model\Config.php
+```
+
+### Update Cron->AddItem file and Use the config model
+
+```
+app\Magneto\SampleModule\Cron\AddItem.php
+```
+
+### Accessing system config values
+
+```
+php bin/magento cache:flush
+```
+
+#### Go to admin
+
+```
+stores->settings->configuration->Magneto
+```
