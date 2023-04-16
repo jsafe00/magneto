@@ -380,3 +380,64 @@ php bin/magento cache:flush
 ```
 stores->settings->configuration->Magneto
 ```
+
+## 15 Dependency Injection Configuration
+
+
+### Add logger
+
+```
+app\Magneto\SampleModule\Console\Command\AddItem.php
+```
+
+```
+php bin/magento cache:flush
+```
+
+```
+php bin/magento magneto:item:add ItemForDebugSample
+```
+
+Check log
+
+```
+var\log\debug.log
+```
+
+### Create custom debug logger
+
+```
+app\Magneto\SampleModule\Model\DebugHandler
+```
+
+#### Declare your custom debug handler in di.xml
+
+```
+app\Magneto\SampleModule\etc\di.xml
+```
+
+```
+php bin/magento cache:flush
+```
+
+```
+php bin/magento magneto:item:add ItemForDebugCustomSample
+```
+
+Check custom log
+
+```
+var\log\debug_custom.log
+```
+
+#### May need to delete:
+
+```
+rm -Rf var/cache/*
+```
+
+```
+rm -Rf var/generated/*
+```
+
+

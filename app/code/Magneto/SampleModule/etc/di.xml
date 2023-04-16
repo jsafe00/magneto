@@ -23,4 +23,18 @@
             </argument>
         </arguments>
     </type>
+    <virtualType name="MagnetoLogger" type="Magento\Framework\Logger\Monolog">
+        <arguments>
+            <argument name="name" xsi:type="string">main</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="system" xsi:type="object">Magento\Framework\Logger\Handler\System</item>
+                <item name="debug" xsi:type="object">Magneto\SampleModule\Model\DebugHandler</item>
+            </argument>
+        </arguments>
+    </virtualType>
+    <type name="Magneto\SampleModule\Console\Command\AddItem">
+          <arguments>
+            <argument name="logger" xsi:type="object">MagnetoLogger</argument>
+        </arguments>
+    </type>
 </config>
